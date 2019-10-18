@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    tools:context=".Tips_3">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Type casting is when you assign a value of one primitive data type to another type.
+In Java, there are two types of casting: \n
+1. Widening Casting (automatically) \n
+Widening casting is done automatically when passing a smaller size type to a larger size type \n
+2. Narrowing Casting (manually) \n
+Narrowing casting must be done manually by placing the type in parentheses in front of the value \n \n
+Syntax \n
+public class MyClass { \n
+  public static void main(String[] args) { \n
+    int myInt = 9; \n
+    double myDouble = myInt; \n
+    System.out.println(myInt); \n
+    System.out.println(myDouble); \n
+  } \n
+}"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/link3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Link Materi"
+                android:background="@android:color/holo_green_light"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

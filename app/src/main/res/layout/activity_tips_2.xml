@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    tools:context=".Tips_2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Data types are divided into two groups \n
+1.Primitive data types - includes byte, short, int, long, float, double, boolean and char \n
+2.Non-primitive data types - such as String, Arrays and Classes (you will learn more about these in a later chapter)\n \n
+Syntax \n
+int myNum = 5; \n
+float myFloatNum = 5.99f; \n
+char myLetter = 'D'; \n
+boolean myBool = true; \n
+String myText = 'Hello';"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+            <Button
+                android:id="@+id/link2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Link Materi"
+                android:background="@android:color/holo_orange_light"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

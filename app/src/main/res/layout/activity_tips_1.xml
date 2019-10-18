@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    tools:context=".Tips_1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@android:color/black"
+                android:text="Variables are containers for storing data values. \n
+In Java, there are different types of variables, for example:\n
+1. String - stores text, such as 'Hello'. String values are surrounded by double quotes \n
+2. int - stores integers (whole numbers), without decimals, such as 123 or -123 \n
+3. float - stores floating point numbers, with decimals, such as 19.99 or -19.99 \n
+4. char - stores single characters, such as 'a' or 'B'. Char values are surrounded by single quotes \n
+5. boolean - stores values with two states: true or false \n \n
+Syntax \n
+public class MyClass { \n
+  public static void main(String[] args) { \n
+    int myInt = 9; \n
+    double myDouble = myInt;\n
+    System.out.println(myInt);\n
+    System.out.println(myDouble);\n
+  } \n
+} \n "
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/link1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Link Materi"
+                android:background="@android:color/holo_red_light"/>/>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

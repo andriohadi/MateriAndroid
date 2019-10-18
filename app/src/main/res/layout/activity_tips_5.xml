@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    tools:context=".Tips_5">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Strings are used for storing text.\n
+A String variable contains a collection of characters surrounded by double quotes \n \n
+Syntax \n
+String greeting = 'Hello'; \n"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/link5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Link Materi"
+                android:background="@android:color/holo_purple"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
